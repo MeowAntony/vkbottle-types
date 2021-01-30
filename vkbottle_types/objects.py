@@ -955,6 +955,7 @@ class AudioAudio(BaseModel):
 
     artist: Optional[str] = None
     id: Optional[int] = None
+    owner_id: Optional[int] = None
     title: Optional[str] = None
     url: Optional[str] = None
     duration: Optional[int] = None
